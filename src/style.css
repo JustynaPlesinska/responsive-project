@@ -1,0 +1,11 @@
+body {
+  background: linear-gradient(-20deg, #fbfcdb 0%, #e9defa 100%);
+        width: 1000px;
+        height: 1000px;
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+h2 {
+    font-family: 'Source Code Pro', monospace;
+}
