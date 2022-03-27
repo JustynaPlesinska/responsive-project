@@ -30,12 +30,33 @@ h2 {
  }
  .project-title {
      margin-bottom: 100px;
-     font-size: 50px;
+     font-size: 60px;
+     overflow: hidden;
+     display: inline-block;
+     height: 60px;
+     margin-top: 45px;
  }
- .project-title:hover {
-    text-decoration: var(--hover-effect);
-    cursor: pointer;
-}
+ .project-title span {
+            animation: move 6s ease-in-out forwards infinite;
+            position: relative;
+        }
+
+        @keyframes move {
+            0%,
+            100% {
+                top: 0px;
+            }
+         25% {
+                top: -60px;
+            }
+            65% {
+                top: -115px;
+            }
+            95% {
+                top: -170px;
+            }
+        }
+
  .btn-branding {
   background: var(--primary-color);
   border-radius: 4px;
