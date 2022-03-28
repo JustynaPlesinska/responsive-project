@@ -20,10 +20,14 @@ h1 {
 h2 {
     font-size: 60px;
 }
-.hero {
+.hero,
+.about-section {
     text-align: center;
     background: var(--primary-color);
     padding: 80px;
+}
+.about-section-content {
+    margin: 35px;
 }
  .heading-name {
      text-align: center;
@@ -86,4 +90,27 @@ h2 {
     border-radius: 20px;
     box-shadow: var(--box-shadow);
     cursor: default;
+}
+.about-photo {
+    max-height: 780px;
+    margin-top: 39px;
+}
+.about-me {
+    font-size: 30px;
+    line-height: 1.8;
+}
+.about-me-heading {
+    line-height: 1.5;
+}
+.projects-description {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+.content-container {
+    margin: 55px auto;
+    display: block;
+}
+.content h1 {
+font-size: 70px;
 }
