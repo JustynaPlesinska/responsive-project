@@ -89,12 +89,6 @@ p {
 .hover-burger:hover {
     text-decoration: var(--hover-effect);
 }
-@media (max-width: 560px) {
-  h1 {
-    font-size: 50px;
-    line-height: 2;
-  }
-}
 .images {
     border-radius: 20px;
     box-shadow: var(--box-shadow);
@@ -170,3 +164,21 @@ footer .social-links a {
             position: relative;
             bottom: 10px;
         }
+        @media (max-width: 560px) {
+  h1 {
+    font-size: 35px;
+    line-height: 1.5;
+  }
+  h2 {
+      font-size: 30px;
+  }
+  p {
+      font-size: 20px;
+  }
+  .coder {
+      font-size: 10px;
+  }
+  .project-title {
+      display: none;
+  }
+}
