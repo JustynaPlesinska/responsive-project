@@ -24,7 +24,10 @@ h2 {
 .about-section {
     text-align: center;
     background: var(--primary-color);
-    padding: 80px;
+    padding: 63px;
+}
+p {
+        cursor: default;
 }
 .about-section-content {
     margin: 35px;
@@ -37,11 +40,11 @@ h2 {
      font-size: 60px;
      overflow: hidden;
      display: inline-block;
-     height: 60px;
+     height: 65px;
      margin-top: 45px;
  }
  .project-title span {
-            animation: move 6s ease-in-out forwards infinite;
+            animation: move 10s ease-in-out backwards infinite;
             position: relative;
         }
 
@@ -98,8 +101,8 @@ h2 {
     cursor: default;
 }
 .about-photo {
-    max-height: 780px;
-    margin-top: 39px;
+    max-height: 790px;
+    margin-top: 30px;
 }
 .about-me {
     font-size: 30px;
@@ -114,9 +117,48 @@ h2 {
     padding: 30px;
 }
 .content-container {
-    margin: 55px auto;
+    margin: 75px auto;
     display: block;
 }
 .content h1 {
 font-size: 70px;
+}
+.contact {
+    font-size: 25px;
+    color: grey;
+    text-decoration: none;
+}
+.contact:hover {
+    color: black;
+    font-weight: 500;
+    text-decoration: var(--hover-effect);
+}
+.logo {
+    width: 50px;
+    margin-bottom: 5px;
+}
+.main-page {
+    width: 150px;
+}
+.mini-logo {
+    width: 45px;
+}
+.xs-logo {
+    width: 35px;
+}
+footer {
+  margin: 100px 0 5px 0;
+}
+footer .contact-box {
+  background: var(--primary-color);
+  padding: 30px 80px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+footer .social-links a {
+  margin: 0 20px;
+  position: relative;
+  left: 50px;
+  bottom: -20px;
 }
